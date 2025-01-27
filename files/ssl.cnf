@@ -1,0 +1,5 @@
+[mysqld]
+skip-name-resolve=0
+ssl-cert=/etc/mysql/ssl/server-cert.pem
+ssl-key=/etc/mysql/ssl/server-key.pem
+require_secure_transport = ON

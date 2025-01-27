@@ -1,0 +1,15 @@
+[req]
+distinguished_name = my_dn
+req_extensions = v3_req
+
+[my_dn]
+# Specify details here, such as the Common Name (CN)
+commonName = group10
+
+[v3_req]
+# Include any certificate extensions here
+subjectAltName = @alt_names
+
+
+[alt_names]
+DNS.1 = localhost

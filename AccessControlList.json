@@ -1,0 +1,20 @@
+{
+  "roles":
+    {
+      "admin":["start", "stop", "restart", "status", "read_Config", "set_Config", "print", "queue", "top_Queue"],
+      "serviceTechnician":["start", "stop", "restart", "status", "read_Config", "set_Config"],
+      "powerUser":  ["print", "queue", "top_Queue", "restart"],
+      "user":["print", "queue"]
+    }
+  ,
+  "users": [
+    {"username": "alice23","roles": ["admin"]},
+    {"username": "bob23","roles":["serviceTechnician"]},
+    {"username": "cecilia23","roles": ["powerUser"]},
+    {"username": "david23","roles": ["user"]},
+    {"username": "erica23","roles": ["user"]},
+    {"username": "fred23","roles": ["user"]},
+    {"username": "george23","roles": ["user"]},
+    {"username": "henry23","roles": ["user"]},
+    {"username": "ida23","roles": ["user"]}
+  ]}
